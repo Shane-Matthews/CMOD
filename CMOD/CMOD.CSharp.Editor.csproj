@@ -90,6 +90,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="CMOD.CSharp.csproj">
+      <Project>{8E7EF305-3743-0B24-0B2F-D2FAA0AE92B0}</Project>
+      <Name>CMOD.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Editor\FBX_Import.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
